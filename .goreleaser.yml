@@ -39,7 +39,7 @@ builds:
       - CGO_ENABLED=0
 
 kos:
-  - repository: ghcr.io/sigstore/cosign-gatekeeper-provider
+  - repository: ghcr.io/cpanato/cosign-gatekeeper-provider
     tags:
       - 'v{{.Version}}'
     main: .
